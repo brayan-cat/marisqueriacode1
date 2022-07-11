@@ -154,6 +154,10 @@
     font-size: 1.5em;
     font-weight: bold;
 }
+/* Esto esta para corregir Filea 157 y 159 */
+.today-special:hover {
+    transform: translateY(-15px);
+}
     /* estilo principal */
     .group--color .container {
        background-color: darkcyan;
@@ -266,7 +270,7 @@
         margin: 0;
     }
     .today-special .column {
-        border: 5px solid #ddd;
+        border: 5px solid rgb(60, 154, 192);
         padding: 5px;
     }
     .today-special__img {
